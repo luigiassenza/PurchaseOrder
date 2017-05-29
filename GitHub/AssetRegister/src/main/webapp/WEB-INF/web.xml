@@ -1,0 +1,86 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AssetSave</servlet-name>
+  	<display-name>AssetSave</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetSave</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssetDisplay</servlet-name>
+  	<display-name>AssetDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssetNewRegister</servlet-name>
+  	<display-name>AssetNewRegister</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetNewRegister</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssetSearch</servlet-name>
+  	<display-name>AssetSearch</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetSearch</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssetDelete</servlet-name>
+  	<display-name>AssetDelete</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetDelete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssetUpdate</servlet-name>
+  	<display-name>AssetUpdate</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetUpdate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssetUpdateSave</servlet-name>
+  	<display-name>AssetUpdateSave</display-name>
+  	<description></description>
+  	<servlet-class>com.company.controller.AssetUpdateSave</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AssetSave</servlet-name>
+  	<url-pattern>/AssetSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssetDisplay</servlet-name>
+  	<url-pattern>/AssetDisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssetNewRegister</servlet-name>
+  	<url-pattern>/AssetNewRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssetSearch</servlet-name>
+  	<url-pattern>/AssetSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssetDelete</servlet-name>
+  	<url-pattern>/AssetDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssetUpdate</servlet-name>
+  	<url-pattern>/AssetUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssetUpdateSave</servlet-name>
+  	<url-pattern>/AssetUpdateSave</url-pattern>
+  </servlet-mapping>
+  
+   <welcome-file-list>
+    <welcome-file>AssetDisplay</welcome-file>
+    <welcome-file>assetdisplay.jsp</welcome-file>
+    <welcome-file>register.jsp</welcome-file>
+    <welcome-file>AssetSave</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>
