@@ -1,0 +1,8 @@
+{ 
+	"AppType" : "PUBLIC",
+	"UserAgent": "Your App Name",
+	"ConsumerKey" : "H0BNZGIBANCBZOQIT57QPWZ0AYZUDN",
+	"ConsumerSecret" : "JJGBSGX1KZXBYX5FXP0ABWACLUWVZN",
+	"CallbackBaseUrl" : "http://localhost:8080/Xero/",
+	"CallbackPath" : "/CallbackServlet"
+}
